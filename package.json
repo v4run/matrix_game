@@ -1,0 +1,21 @@
+{
+    "name": "matrix_react_flux",
+    "version": "1.0.0",
+    "description": "A matrix game of 1s and 0s",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "watchify js/index.js -v -t babelify -o build/bundle.js"
+    },
+    "author": "varun",
+    "license": "ISC",
+    "dependencies": {
+        "babelify": "^6.3.0",
+        "flux": "^2.1.1",
+        "keymirror": "^0.1.1",
+        "object-assign": "^4.0.1",
+        "react": "^0.14.0",
+        "react-dom": "^0.14.0",
+        "watchify": "^3.4.0"
+    }
+}

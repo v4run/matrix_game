@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#matrix-container {
+    margin: 0 auto;
+    min-width: 400px;
+    padding-top: 200px;
+    text-align: center;
+}
+
+#matrix-container .matrix-rows {
+    list-style: none;
+    padding: 0;
+}
+
+.matrix-rows ul {
+    padding: 0;
+    height: 50px;
+}
+
+#matrix-container .matrix-rows ul .matrix-cells {
+    list-style: none;
+    display: inline-block;
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#matrix-container .matrix-rows ul .matrix-cells span {
+    margin-top: 12px;
+    display: inline-block;
+}
+
+.color-of-1 {
+    /*background-color: rgba(255, 249, 196, 1);*/
+    background-color: #FFF9C4;
+}
+.color-of-1:hover {
+    /*background-color: rgba(255, 249, 196, 1);*/
+    background-color: #FFF59D;
+}
+.color-of-0 {
+    /*background-color: rgba(255, 204, 188, 1);*/
+    background-color: #FFCCBC;
+}
+.color-of-0:hover {
+    /*background-color: rgba(255, 204, 188, 1);*/
+    background-color: #FFAB91;
+}
